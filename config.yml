@@ -1,13 +1,10 @@
 accounts:
   - name: daniel
     coins: ["20000coopcoin","200000000stake"]
-    mnemonic: glimpse guide zoo history health ladder else shell robot another govern breeze push country print rhythm thrive license wreck grit elder museum muscle group
   - name: jenson
     coins: ["10000coopcoin"]
-    mnemonic: code health mountain domain donor album crew jacket defy hospital other mistake error fun group diagram ugly ring quarter tonight sound bacon hat river
   - name: furen
     coins: ["3000coopcoin"]
-    mnemonic: clay piano always upset drill sport anchor expose broom fever frame stock rhythm divorce aware trim split bargain quote evil leopard fruit message practice
     
     
 validator:
