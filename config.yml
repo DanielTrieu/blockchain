@@ -1,10 +1,17 @@
 accounts:
-  - name: alice
-    coins: ["20000token", "200000000stake"]
-  - name: bob
-    coins: ["10000token", "100000000stake"]
+  - name: daniel
+    coins: ["20000coopcoin","200000000stake"]
+    mnemonic: glimpse guide zoo history health ladder else shell robot another govern breeze push country print rhythm thrive license wreck grit elder museum muscle group
+  - name: jenson
+    coins: ["10000coopcoin"]
+    mnemonic: code health mountain domain donor album crew jacket defy hospital other mistake error fun group diagram ugly ring quarter tonight sound bacon hat river
+  - name: furen
+    coins: ["3000coopcoin"]
+    mnemonic: clay piano always upset drill sport anchor expose broom fever frame stock rhythm divorce aware trim split bargain quote evil leopard fruit message practice
+    
+    
 validator:
-  name: alice
+  name: daniel
   staked: "100000000stake"
 client:
   vuex:
@@ -12,5 +19,8 @@ client:
   openapi:
     path: "docs/static/openapi.yml"
 faucet:
-  name: bob
-  coins: ["5token", "100000stake"]
+  name: jenson
+  coins: ["5coopcooin"]
+
+build:
+  binary: "mychaind"
