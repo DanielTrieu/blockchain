@@ -92,7 +92,7 @@ import (
 )
 
 const (
-	AccountAddressPrefix = "coop"
+	AccountAddressPrefix = "tcoop"
 	Name                 = "mychain"
 )
 
