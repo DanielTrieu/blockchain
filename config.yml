@@ -1,15 +1,11 @@
 accounts:
-  - name: daniel
-    coins: ["20000coopcoin","200000000stake"]
-  - name: jenson
-    coins: ["10000coopcoin"]
-  - name: furen
-    coins: ["3000coopcoin"]
-    
+  - name: user
+    coins: ["1000000stake"]
+
     
 validator:
-  name: daniel
-  staked: "100000000stake"
+  name: user
+  staked: "1000stake"
 client:
   vuex:
     path: "vue/src/store"
