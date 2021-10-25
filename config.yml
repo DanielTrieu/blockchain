@@ -13,7 +13,7 @@ client:
     path: "docs/static/openapi.yml"
 faucet:
   name: user
-  coins: ["5coopcooin"]
+  coins: ["5stake"]
 
 build:
   binary: "mychaind"
