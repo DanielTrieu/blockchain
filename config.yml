@@ -1,11 +1,11 @@
 accounts:
   - name: user
-    coins: ["1000000stake"]
+    coins: ["1000000000000stake"]
 
     
 validator:
   name: user
-  staked: "1000stake"
+  staked: "10000000stake"
 client:
   vuex:
     path: "vue/src/store"
