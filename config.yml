@@ -1,19 +1,23 @@
 accounts:
   - name: genesis
     coins: ["1000000000000000utcoin"]
+  - name: faucet
+    coins: ["1000000utcoin"]
+  - name: validator0
+    coins: ["1000000000stake"]
 
     
 validator:
-  name: genesis
-  staked: "10000000utcoin"
+  name: validator0
+  staked: "10000000stake"
 client:
   vuex:
     path: "vue/src/store"
   openapi:
     path: "docs/static/openapi.yml"
 faucet:
-  name: genesis
-  coins: ["1000utcoin"]
+  name: faucet
+  coins: ["10utcoin"]
 
 build:
   binary: "mychaind"
@@ -22,4 +26,4 @@ genesis:
   app_state:
     staking:
       params:
-        bond_denom: "utcoin"
+        bond_denom: "stake"
