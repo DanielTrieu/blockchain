@@ -1,10 +1,10 @@
 accounts:
-  - name: user
-    coins: ["1000000000000stake"]
+  - name: genesis
+    coins: ["1000000000000000stake"]
 
     
 validator:
-  name: user
+  name: genesis
   staked: "10000000stake"
 client:
   vuex:
@@ -12,8 +12,9 @@ client:
   openapi:
     path: "docs/static/openapi.yml"
 faucet:
-  name: user
-  coins: ["5stake"]
+  name: genesis
+  coins: ["1000stake"]
 
 build:
   binary: "mychaind"
+
